@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and checkpoint files for Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Python / VS Code / IDE settings
+.vscode/
+.idea/
+
+# Machine Learning & Data (nevkládejte do Git obří soubory ani stažené modely)
+*.csv
+*.json
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Exception: allow template or demo data if needed
+#!data/sample.csv
