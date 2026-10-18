@@ -38,3 +38,7 @@ Thumbs.db
 
 # Exception: allow template or demo data if needed
 #!data/sample.csv
+
+# dataset locations
+dataset/
+data/
